@@ -20,19 +20,19 @@ downloader -a
 soe <project_path>
 
 - Skip fuzzing and only rebuild the function list:
-python -m soe.soe tests/test_repo --no-fuzz
+soe <project_path> --no-fuzz
 
 
 - Simple fuzzer:
-python -m soe.soe tests/test_repo -f simple
+soe <project_path> -f simple
 
 
 - Black box:
-python -m soe.soe tests/test_repo -f blackbox --duration 60 --time-per-func 1.0 --show-success
+soe <project_path> -f blackbox --duration 60 --time-per-func 1.0 --show-success
 
 
 - Reuse old metadata:
-soe tests/test_repo --function-list-file output/function_list.pkl --type-list-file output/type_list.pkl
+soe <project_path> --function-list-file output/function_list.pkl --type-list-file output/type_list.pkl
 
 
 - Options:
