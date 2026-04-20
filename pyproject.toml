@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sturdy-octo-engine"
+version = "0.1.0"
+description = "Type error fuzzer for Python projects"
+authors = [
+    { name = "Nguyen Duy Anh" },
+    { name = "Nguyen Quoc Hoang" },
+    { name = "Nguyen Vu Nhat Minh" },
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+downloader = [
+    "GitPython>=3.1.45"
+]
+test = [
+    "flake8>=7.0.0",
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[project.scripts]
+soe = "soe.soe:main"
+downloader = "downloader.downloader:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

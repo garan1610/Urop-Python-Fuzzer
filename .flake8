@@ -1,0 +1,7 @@
+[flake8]
+exclude =
+    .pytest_cache,
+    .venv,
+    downloads,
+    output,
+    __pycache__,

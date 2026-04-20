@@ -1,0 +1,169 @@
+{
+  "functions": {
+    "test_src_1.main.main": {
+      "params": [],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 1,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.param_func": {
+      "params": [
+        "Any"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 4,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.param_func_2": {
+      "params": [
+        "int"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 7,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.nested_func": {
+      "params": [],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 10,
+      "calls": [
+        "test_src_1.main.nested_func.<locals>.inner_func"
+      ],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.combined_func": {
+      "params": [],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 15,
+      "calls": [
+        "test_src_1.main.param_func",
+        "test_src_1.main.param_func_2"
+      ],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.str_func": {
+      "params": [
+        "str"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 18,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.use_sample_class": {
+      "params": [],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 23,
+      "calls": [
+        "test_src_2.main.SampleClass.method_one",
+        "test_src_2.main.SampleClass.method_two"
+      ],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_1.main.error_func": {
+      "params": [
+        "int"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_1\\main.py",
+      "lineno": 29,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_2.main.main": {
+      "params": [],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_2\\main.py",
+      "lineno": 1,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_2.main.SampleClass.method_one": {
+      "params": [
+        "Any"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_2\\main.py",
+      "lineno": 5,
+      "calls": [],
+      "is_class_method": true,
+      "class_qualname": "test_src_2.main.SampleClass",
+      "class": "SampleClass"
+    },
+    "test_src_2.main.SampleClass.method_two": {
+      "params": [
+        "int"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_2\\main.py",
+      "lineno": 8,
+      "calls": [],
+      "is_class_method": true,
+      "class_qualname": "test_src_2.main.SampleClass",
+      "class": "SampleClass"
+    },
+    "test_src_3.main.main": {
+      "params": [
+        "Any"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_3\\main.py",
+      "lineno": 5,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    },
+    "test_src_3.main.add_object": {
+      "params": [
+        "int",
+        "CustomClass"
+      ],
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_3\\main.py",
+      "lineno": 8,
+      "calls": [],
+      "is_class_method": false,
+      "class_qualname": null,
+      "class": null
+    }
+  },
+  "classes": {
+    "test_src_2.main.SampleClass": {
+      "module": "test_src_2.main",
+      "name": "SampleClass",
+      "qualname": "test_src_2.main.SampleClass",
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_2\\main.py",
+      "lineno": 4,
+      "methods": [
+        "test_src_2.main.SampleClass.method_one",
+        "test_src_2.main.SampleClass.method_two"
+      ]
+    },
+    "test_src_3.main.CustomClass": {
+      "module": "test_src_3.main",
+      "name": "CustomClass",
+      "qualname": "test_src_3.main.CustomClass",
+      "filename": "D:\\All Python Project\\UROP\\tests\\test_repo\\test_src_3\\main.py",
+      "lineno": 1,
+      "methods": [
+        "test_src_3.main.CustomClass.__init__"
+      ]
+    }
+  }
+}
